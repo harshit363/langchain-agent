@@ -1,0 +1,20 @@
+# Ignore the local virtual environment
+venv/
+.venv/
+
+# Ignore local secrets and configuration
+.env
+.env*
+
+# Ignore Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Git history
+.git
+.gitignore
+
+# Ignore VS Code configuration folder
+.vscode/
