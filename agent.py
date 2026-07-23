@@ -6,7 +6,7 @@ from langchain_community.agent_toolkits.load_tools import load_tools
 from langchain.agents import create_agent
 
 # Load environment variables from .env
-load_dotenv()
+load_dotenv().
 
 # Initialize Groq LLM with LLaMA 3
 llm = ChatGroq(
